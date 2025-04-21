@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <Civ>uk</Civ>
+    <GenericName>Union Bayonet Infantry</GenericName>
+    <SpecificName>Union Bayonet Infantry</SpecificName>
+    <Icon>units/british/infantry_rifleman_melee_b.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/british/rifle_assalt_tommy.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_vehicle_aircraft_plane">
+  <Identity>
+    <Civ>ger</Civ>
+    <SpecificName>Halberstadt D2</SpecificName>
+    <Icon>units/hele/siege_lithobolos_packed.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/ww1/halberstadt_d2.xml</Actor>
+  </VisualActor>
+</Entity>

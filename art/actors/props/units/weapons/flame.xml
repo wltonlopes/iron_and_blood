@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="flame">
+      <mesh>props/units/weapons/flame.dae</mesh>
+      <props>
+        <prop actor="particle/flame_pig.xml" attachpoint="projectile"/>
+        <prop actor="particle/flame_pig.xml" attachpoint="loaded-projectile"/>
+      </props>
+      <textures>
+        <texture file="props/units/weapons/infantry-props.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans.xml</material>
+</actor>

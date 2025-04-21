@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="Base">
+      <mesh>skeletal/falconet.dae</mesh>
+      <animations>
+        <animation event="0.16" file="artillery/falconet_attack.dae" name="attack_ranged" id="attack1" speed="10"/>
+        <animation file="artillery/falconet_walk.dae" name="walk" speed="40"/>
+        <animation file="artillery/falconet_walk.dae" name="run" speed="20"/>
+      </animations>
+      <props>
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
+        <prop actor="units/artillery_operator/operator_a.xml" attachpoint="operator_1"/>
+        <prop actor="units/artillery_operator/operator_b.xml" attachpoint="operator_2"/>
+      </props>
+      <textures>
+        <texture file="structural/union_struct.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

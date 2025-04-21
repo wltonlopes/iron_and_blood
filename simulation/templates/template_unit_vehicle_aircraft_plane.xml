@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_vehicle">
+  <Attack>
+    <Ranged>
+      <AttackName>AutomaticGun</AttackName>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>12</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>100</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Projectile>
+        <Speed>60</Speed>
+        <Spread>2</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="30"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">
+        Ship
+        Human
+      </PreferredClasses>
+    </Ranged>
+  </Attack>
+  <Footprint replace="">
+    <Square width="10.0" depth="10.0"/>
+    <Height>10.0</Height>
+    <MaxSpawnDistance>10</MaxSpawnDistance>
+  </Footprint>
+  <GarrisonHolder disable=""/>
+  <Health>
+    <Unhealable>true</Unhealable>
+  </Health>
+  <Identity>
+    <GenericName>Plane</GenericName>
+    <!-- <VisibleClasses datatype="tokens">Ship</VisibleClasses> -->
+  </Identity>
+  <Obstruction disable=""/>
+  <Position>
+    <Altitude>50</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>1</TurnRate>
+  </Position>
+  <Repairable>
+    <RepairTimeRatio>3.0</RepairTimeRatio>
+  </Repairable>
+  <UnitAI>
+    <Formations datatype="tokens" replace=""/>
+  </UnitAI>
+  <UnitMotion disable=""/>
+<UnitMotionFlying>
+  <!-- Velocidade típica de biplanos da época (160-220 km/h em valores escalados) -->
+  <MaxSpeed>50.0</MaxSpeed>
+  <!-- Decolagem/aterrissagem mais realistas -->
+  <TakeoffSpeed>40.0</TakeoffSpeed>
+  <LandingSpeed>35.0</LandingSpeed>
+  
+  <!-- Aceleração melhorada para dogfights -->
+  <AccelRate>8.0</AccelRate>
+  <SlowingRate>6.0</SlowingRate>
+  <BrakingRate>12.0</BrakingRate>
+  
+  <!-- Manobrabilidade ágil (especialmente para triplanos) -->
+  <TurnRate>0.8</TurnRate>
+  <OvershootTime>2.5</OvershootTime>
+  
+  <!-- Voando baixo para ataques terrestres -->
+  <FlyingHeight>30.0</FlyingHeight>
+  <!-- Subida rápida (aviões leves) -->
+  <ClimbRate>3.5</ClimbRate>
+  
+  <!-- Morre na água (aviões da WW1 não pousavam bem em água) -->
+  <DiesInWater>true</DiesInWater>
+  <!-- Restrito por obstáculos altos -->
+  <PassabilityClass>unrestricted</PassabilityClass>
+</UnitMotionFlying>
+  <Vision>
+    <Range>100</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/global/plane.xml</Actor>
+  </VisualActor>
+</Entity>

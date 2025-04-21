@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>175</Max>
+  </Health>
+  <Identity>
+    <Civ>uk</Civ>
+    <GenericName>Tommy Infantry</GenericName>
+    <SpecificName>Tommy Infantry</SpecificName>
+    <Icon>units/british/infantry_rifleman_ranged_b.png</Icon>
+  </Identity>
+    <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/british/rifle_assalt_tommy.xml</Actor>
+  </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <walk></walk>
+      <run></run>
+    </SoundGroups>
+  </Sound>
+</Entity>

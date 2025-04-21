@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+	<Attack>
+    <Ranged>
+    <ApplyStatus>
+          <Burning>
+          <Interval>3000</Interval>
+          <Damage>
+            <Fire>0.2</Fire>
+          </Damage>
+          <Stackability>Stack</Stackability>
+          <Duration>9000</Duration>
+          </Burning>
+      </ApplyStatus>
+      <AttackName>Arrow</AttackName>
+      <Damage>
+        <Hack>0.0</Hack>
+		<Pierce>0.01</Pierce>
+		<Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>10</MaxRange>
+      <PrepareTime>1000</PrepareTime>
+      <RepeatTime>10</RepeatTime>
+      <Projectile>
+        <Speed>18.0</Speed>
+        <Spread>1.0</Spread>
+        <Gravity>10.90</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <ImpactActorName>particle/flame_pig.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.1</ImpactAnimationLifetime>
+        <LaunchPoint y="1"/>
+      </Projectile>
+			<Splash>
+				<Shape>Circular</Shape>
+				<Range>5</Range>
+				<FriendlyFire>false</FriendlyFire>
+				<Damage>
+					<Hack>0.0</Hack>
+					<Pierce>0.01</Pierce>
+					<Crush>0.0</Crush>
+				</Damage>
+			</Splash>
+      <PreferredClasses datatype="tokens">
+        Human
+      </PreferredClasses>
+    </Ranged>
+	</Attack>
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>175</Max>
+  </Health>
+  <Identity>
+    <Civ>ger</Civ>
+    <GenericName>flammenwerfer</GenericName>
+    <SpecificName>flammenwerfer</SpecificName>
+    <Icon>units/german/infantry_rifleman_ranged_b.png</Icon>
+  </Identity>
+    <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/german/flammenwerfer.xml</Actor>
+  </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <!-- <attack_ranged>attack/weapon/musket.xml</attack_ranged> -->
+      <walk></walk>
+      <run></run>
+    </SoundGroups>
+  </Sound>
+</Entity>

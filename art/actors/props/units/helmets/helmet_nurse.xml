@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="a">
+      <mesh>props/helmet/helmet_nurse.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="1">
+      <textures>
+        <texture file="skeletal/dress_female_nurse.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

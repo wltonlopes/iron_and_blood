@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>175</Max>
+  </Health>
+  <Identity>
+    <Civ>ger</Civ>
+    <GenericName>Infanterie-Regimenter</GenericName>
+    <SpecificName>Infanterie-Regimenter</SpecificName>
+    <Icon>units/german/infantry_rifleman_ranged_b.png</Icon>
+  </Identity>
+    <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/german/stormtrooper.xml</Actor>
+  </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <walk></walk>
+      <run></run>
+    </SoundGroups>
+  </Sound>
+</Entity>

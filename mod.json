@@ -1,0 +1,12 @@
+{
+	"name": "iron_and_blood",
+	"label": "iron_and_blood",
+	"version": "0.27.1",
+	"url": "",
+	"description": "0 A.D.",
+	"dependencies": [
+		"0ad=0.27.0"
+	],
+	"dependencies": ["0ad=0.27.0"],
+	"type": ["Factions"]
+}

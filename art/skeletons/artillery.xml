@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<skeletons>
+  <standard_skeleton title="artillery" id="artillery">
+    <bone name="twowheel">
+      <bone name="l_wheel" />
+      <bone name="r_wheel" />
+      <bone name="cannon" />
+      <bone name="cannonBody" />
+    </bone>
+    <bone name="Falconet" />
+  </standard_skeleton>
+  <skeleton title="artillery" target="artillery">
+    <identifier>
+      <root>twowheel</root>
+    </identifier>
+    <bone name="twowheel">
+      <target>twowheel</target>
+      <bone name="l_wheel">
+        <target>l_wheel</target>
+      </bone>
+      <bone name="r_wheel">
+        <target>r_wheel</target>
+      </bone>
+      <bone name="cannon">
+        <target>cannon</target>
+      </bone>
+      <bone name="cannonBody">
+        <target>cannonBody</target>
+      </bone>
+    </bone>
+    <bone name="Falconet">
+      <target>Falconet</target>
+    </bone>
+  </skeleton>
+</skeletons>
