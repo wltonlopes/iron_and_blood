@@ -4,11 +4,11 @@
     <Ranged>
       <AttackName>Rifler</AttackName>
       <Damage>
-        <Pierce>15.0</Pierce>
+        <Pierce>35.0</Pierce>
       </Damage>
       <MaxRange>40</MaxRange>
       <PrepareTime>700</PrepareTime>
-      <RepeatTime>1000</RepeatTime>
+      <RepeatTime>2000</RepeatTime>
       <Projectile>
         <Speed>60</Speed>
         <Spread>2.5</Spread>
@@ -77,7 +77,7 @@
     <CheeringTime>2800</CheeringTime>
   </UnitAI>
    <UnitMotion>
-    <WalkSpeed>12.0</WalkSpeed>
+    <WalkSpeed>11.0</WalkSpeed>
   </UnitMotion>
   <Vision>
     <Range>80</Range>

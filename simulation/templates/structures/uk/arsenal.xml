@@ -21,6 +21,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/union/arsenal.xml</Actor>
+    <Actor>structures/union/arsenal_garagem.xml</Actor>
   </VisualActor>
 </Entity>

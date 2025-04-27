@@ -11,6 +11,6 @@
     <HeightOffset>22.0</HeightOffset>
   </StatusBars>
   <VisualActor>
-    <Actor>structures/ww1/barracks.xml</Actor>
+    <Actor>structures/ww1/ger/barracks.xml</Actor>
   </VisualActor>
 </Entity>

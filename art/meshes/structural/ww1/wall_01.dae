@@ -5,22 +5,22 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.83.20 commit date:2022-04-19, commit time:16:00, hash:a56e2faeb7a9</authoring_tool>
     </contributor>
-    <created>2025-04-12T15:26:34</created>
-    <modified>2025-04-12T15:26:34</modified>
-    <unit name="inch" meter="0.0254"/>
+    <created>2025-04-21T16:24:56</created>
+    <modified>2025-04-21T16:24:56</modified>
+    <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
   <library_effects>
     <effect id="Material_001-effect">
       <profile_COMMON>
-        <newparam sid="ww1_struct_png-surface">
+        <newparam sid="ww1_ger_struct_png-surface">
           <surface type="2D">
-            <init_from>ww1_struct_png</init_from>
+            <init_from>ww1_ger_struct_png</init_from>
           </surface>
         </newparam>
-        <newparam sid="ww1_struct_png-sampler">
+        <newparam sid="ww1_ger_struct_png-sampler">
           <sampler2D>
-            <source>ww1_struct_png-surface</source>
+            <source>ww1_ger_struct_png-surface</source>
           </sampler2D>
         </newparam>
         <technique sid="common">
@@ -29,7 +29,7 @@
               <color sid="emission">0 0 0 1</color>
             </emission>
             <diffuse>
-              <texture texture="ww1_struct_png-sampler" texcoord="UVMap"/>
+              <texture texture="ww1_ger_struct_png-sampler" texcoord="UVMap"/>
             </diffuse>
             <index_of_refraction>
               <float sid="ior">1.45</float>
@@ -40,8 +40,8 @@
     </effect>
   </library_effects>
   <library_images>
-    <image id="ww1_struct_png" name="ww1_struct_png">
-      <init_from>/home/welton/Downloads/ww1_struct.png</init_from>
+    <image id="ww1_ger_struct_png" name="ww1_ger_struct_png">
+      <init_from>/home/welton/.local/share/0ad/mods/iron_and_blood/art/textures/skins/structural/ww1_ger_struct.png</init_from>
     </image>
   </library_images>
   <library_materials>
@@ -105,9 +105,9 @@
   </library_geometries>
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
-      <node id="wall_01" name="wall_01" type="NODE">
-        <matrix sid="transform">0.2413461 0.0355844 -0.005041899 0 -0.005502474 0.001438961 -0.2489051 0 -0.0493766 0.1737714 0.003093591 0 0 0 0 1</matrix>
-        <instance_geometry url="#Cylinder-mesh" name="wall_01">
+      <node id="wall" name="wall" type="NODE">
+        <matrix sid="transform">0.007381695 -0.002680167 0.6083473 0 0.3237713 0.06627849 -0.01232288 0 -0.06623981 0.3236617 0.007561026 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cylinder-mesh" name="wall">
           <bind_material>
             <technique_common>
               <instance_material symbol="Material_001-material" target="#Material_001-material">

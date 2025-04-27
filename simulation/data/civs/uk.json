@@ -47,13 +47,13 @@
 			"Template": "units/uk/infantry_rifleman_ranged_b" 
 		},
 		{
-			"Template": "units/uk/infantry_rifleman_ranged_b" 
+			"Template": "units/uk/cavalry_swordsman_b" 
 		}
 	],
     "SkirmishReplacements": {
         "skirmish/units/default_infantry_ranged_b": "units/uk/infantry_rifleman_ranged_b",
         "skirmish/units/default_support_female_citizen": "units/uk/support_female_citizen",
-        "skirmish/units/default_cavalry": "units/uk/infantry_rifleman_ranged_b",
+        "skirmish/units/default_cavalry": "units/uk/cavalry_swordsman_b",
         "skirmish/units/default_infantry_melee_b": "units/uk/infantry_rifleman_melee_b",
         "skirmish/structures/default_civil_centre": "structures/uk/civic_center"
     },

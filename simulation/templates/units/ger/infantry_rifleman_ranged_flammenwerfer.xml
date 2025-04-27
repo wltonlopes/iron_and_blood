@@ -57,7 +57,7 @@
     <Civ>ger</Civ>
     <GenericName>flammenwerfer</GenericName>
     <SpecificName>flammenwerfer</SpecificName>
-    <Icon>units/german/infantry_rifleman_ranged_b.png</Icon>
+    <Icon>units/ger/flammenwerfer.png</Icon>
   </Identity>
     <Promotion disable=""/>
   <VisualActor>

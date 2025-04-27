@@ -47,13 +47,13 @@
 			"Template": "units/ger/infantry_rifleman_ranged_b" 
 		},
 		{
-			"Template": "units/ger/infantry_rifleman_ranged_b" 
+			"Template": "units/ger/cavalry_swordsman_b" 
 		}
 	],
     "SkirmishReplacements": {
         "skirmish/units/default_infantry_ranged_b": "units/{civ}/infantry_rifleman_ranged_b",
         "skirmish/units/default_support_female_citizen": "units/{civ}/support_female_citizen",
-        "skirmish/units/default_cavalry": "units/{civ}/infantry_rifleman_ranged_b",
+        "skirmish/units/default_cavalry": "units/{civ}/cavalry_swordsman_b",
         "skirmish/units/default_infantry_melee_b": "units/{civ}/infantry_rifleman_melee_b",
 		"skirmish/structures/iber_wall_short": "structures/ger/wall_short",
 		"skirmish/structures/iber_wall_medium": "structures/ger/wall_medium",

@@ -3,8 +3,8 @@
   <Identity>
     <Civ>ger</Civ>
     <Phenotype>female</Phenotype>
-    <SpecificName>Kehinit</SpecificName>
-    <Icon>units/ger/support_healer.png</Icon>
+    <SpecificName>Nurse</SpecificName>
+    <Icon>units/nurse.png</Icon>
     <Requirements>
       <Techs datatype="tokens">-phase_town phase_village</Techs>
     </Requirements>

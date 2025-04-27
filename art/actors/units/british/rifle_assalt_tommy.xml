@@ -12,9 +12,9 @@
         <prop actor="props/units/quivers/union_belt.xml" attachpoint="sheath_L"/>
       </props>
       <textures>
-        <texture file="skeletal/british_uniform_infantry_g.png" name="normTex"/>
-        <texture file="skeletal/british_uniform_infantry_g.png" name="baseTex"/>
-        <texture file="skeletal/british_uniform_infantry_g.png" name="specTex"/>
+        <texture file="skeletal/uk_uniform_infantry_pc.png" name="normTex"/>
+        <texture file="skeletal/uk_uniform_infantry_pc.png" name="baseTex"/>
+        <texture file="skeletal/uk_uniform_infantry_pc.png" name="specTex"/>
       </textures>
     </variant>
   </group>

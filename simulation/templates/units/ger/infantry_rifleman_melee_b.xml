@@ -10,9 +10,10 @@
   </Health>
   <Identity>
     <Civ>ger</Civ>
+    <SelectionGroupName>units/ger/sturmtruppen</SelectionGroupName>
     <GenericName>pionier-sturmtruppen</GenericName>
     <SpecificName>pionier-sturmtruppen</SpecificName>
-    <Icon>units/union/infantry_rifleman_melee_b.png</Icon>
+    <Icon>units/ger/flammenwerfer.png</Icon>
   </Identity>
   <Promotion disable=""/>
   <VisualActor>

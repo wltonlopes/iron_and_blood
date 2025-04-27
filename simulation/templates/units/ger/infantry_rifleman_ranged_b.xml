@@ -12,11 +12,11 @@
     <Civ>ger</Civ>
     <GenericName>Infanterie-Regimenter</GenericName>
     <SpecificName>Infanterie-Regimenter</SpecificName>
-    <Icon>units/german/infantry_rifleman_ranged_b.png</Icon>
+    <Icon>units/ger/infantry_reg.png</Icon>
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/german/stormtrooper.xml</Actor>
+    <Actor>units/german/line_infantry.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

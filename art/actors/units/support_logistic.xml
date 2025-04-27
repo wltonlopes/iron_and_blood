@@ -31,7 +31,7 @@
     <variant frequency="1" name="Idle"/>
     <variant frequency="0" name="Death">
       <props>
-        <prop actor="" attachpoint="root"/>
+        <prop actor="structures/ww1/cargo.xml" attachpoint="cargo"/>
       </props>
     </variant>
   </group>

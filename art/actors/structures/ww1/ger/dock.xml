@@ -3,14 +3,14 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Civiccenter">
-      <mesh>structural/ww1/farmstead.dae</mesh>
+      <mesh>structural/ww1/dock.dae</mesh>
       <props>
 
       </props>
       <textures>
-        <texture file="structural/ww1_struct.png" name="baseTex"/>
-        <texture file="structural/ww1_struct_norm.png" name="normTex"/>
-        <texture file="structural/ww1_struct_spec.png" name="specTex"/>
+        <texture file="structural/ww1_ger_struct.png" name="baseTex"/>
+        <texture file="structural/ww1_ger_struct_norm.png" name="normTex"/>
+        <texture file="structural/ww1_ger_struct_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -25,5 +25,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_norm_spec.xml</material>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

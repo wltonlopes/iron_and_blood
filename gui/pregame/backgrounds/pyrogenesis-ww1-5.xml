@@ -3,4 +3,11 @@
   <sprite name="pyrogenesis-ww1-3">
     <image texture="pregame/backgrounds/pyrogenesis-ww1-3.png" fixed_h_aspect_ratio="2" round_coordinates="false" />
   </sprite>
+	<sprite name="background-viking-02">
+		<image
+			texture="pregame/backgrounds/viking_flares.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
 </sprites>
