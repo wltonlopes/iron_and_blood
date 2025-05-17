@@ -1,0 +1,62 @@
+{
+    "AINames": [
+        "Ulysses S. Grant",
+        "George Mcclellan",
+        "William Tecumseh Sherman",
+        "George Custer",
+        "Robert Anderson",
+        "Nathaniel Banks"
+    ],
+    "Code": "franc",
+    "Culture": "american",
+    "Factions": [],
+    "CivBonuses": [],
+    "History": "",
+    "Music": [],
+    "Formations": [
+        "special/formations/null",
+        "special/formations/box",
+        "special/formations/column_closed",
+        "special/formations/line_closed",
+        "special/formations/column_open",
+        "special/formations/line_open",
+        "special/formations/flank",
+        "special/formations/battle_line",
+        "special/formations/skirmish",
+        "special/formations/wedge"
+    ],
+    "SelectableInGameSetup": true,
+	"StartEntities":
+	[
+		{
+			"Template": "structures/franc/civic_center" 
+		},
+		{
+			"Template": "units/franc/support_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/franc/infantry_rifleman_melee_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/franc/infantry_rifleman_ranged_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/franc/infantry_rifleman_ranged_b" 
+		},
+		{
+			"Template": "units/franc/infantry_rifleman_ranged_b" 
+		}
+	],
+    "SkirmishReplacements": {
+        "skirmish/units/default_infantry_ranged_b": "units/{civ}/infantry_rifleman_ranged_b",
+        "skirmish/units/default_support_female_citizen": "units/{civ}/support_female_citizen",
+        "skirmish/units/default_cavalry": "units/{civ}/infantry_rifleman_ranged_b",
+        "skirmish/units/default_infantry_melee_b": "units/{civ}/infantry_rifleman_melee_b",
+        "skirmish/structures/default_civil_centre": "structures/franc/civic_center"
+    },
+    "Structures": [],
+    "TeamBonuses": []
+}

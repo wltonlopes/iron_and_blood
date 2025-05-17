@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman_var_melee">
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <Civ>ger</Civ>
+   <GenericName>Pioner Infantry Mace</GenericName>
+    <SpecificName>Pioner Infantry Mace</SpecificName>
+    <Icon>units/ger/pioner_infantry.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/german/pionier_infantry_melee.xml</Actor>
+  </VisualActor>
+</Entity>

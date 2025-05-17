@@ -1,11 +1,12 @@
 {
     "AINames": [
-        "Ulysses S. Grant",
-        "George Mcclellan",
-        "William Tecumseh Sherman",
-        "George Custer",
-        "Robert Anderson",
-        "Nathaniel Banks"
+        "Paul Emil von Lettow-Vorbeck",
+        "Alfred von Tirpitz",
+        "Paul von Hindenburg",
+        "August von Mackensen",
+        "Erich von Falkenhayn",
+        "Helmuth von Moltke",
+        "Erich Ludendorff"
     ],
     "Code": "ger",
     "Culture": "germany",
@@ -29,14 +30,14 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/ger/civil_centre" 
+			"Template": "structures/ger/civic_center" 
 		},
 		{
 			"Template": "units/ger/support_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/ger/infantry_rifleman_melee_b",
+			"Template": "units/ger/infantry_rifleman_v",
 			"Count": 2 
 		},
 		{
@@ -47,19 +48,14 @@
 			"Template": "units/ger/infantry_rifleman_ranged_b" 
 		},
 		{
-			"Template": "units/ger/cavalry_swordsman_b" 
+			"Template": "units/ger/cavalry_spearman_b" 
 		}
 	],
     "SkirmishReplacements": {
         "skirmish/units/default_infantry_ranged_b": "units/{civ}/infantry_rifleman_ranged_b",
         "skirmish/units/default_support_female_citizen": "units/{civ}/support_female_citizen",
-        "skirmish/units/default_cavalry": "units/{civ}/cavalry_swordsman_b",
-        "skirmish/units/default_infantry_melee_b": "units/{civ}/infantry_rifleman_melee_b",
-		"skirmish/structures/iber_wall_short": "structures/ger/wall_short",
-		"skirmish/structures/iber_wall_medium": "structures/ger/wall_medium",
-		"skirmish/structures/iber_wall_long": "structures/ger/wall_long",
-		"skirmish/structures/iber_wall_gate": "structures/ger/wall_gate",
-		"skirmish/structures/iber_wall_tower": "structures/ger/wall_tower",
+        "skirmish/units/default_cavalry": "units/{civ}/cavalry_spearman_b",
+        "skirmish/units/default_infantry_melee_b": "units/{civ}/infantry_rifleman_v",
         "skirmish/structures/default_civil_centre": "structures/ger/civic_center"
     },
     "Structures": [],

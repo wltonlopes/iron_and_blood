@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman_var">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <Civ>uk</Civ>
+    <GenericName>Assalt Melee Gurkhas</GenericName>
+    <SpecificName>Assalt Melee Gurkhas</SpecificName>
+    <Icon>units/uk/gurkhas.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/british/rifle_assalt_range_gurkhas.xml</Actor>
+  </VisualActor>
+</Entity>

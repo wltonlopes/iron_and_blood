@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_rifleman">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>175</Max>
+  </Health>
+  <Identity>
+    <Civ>uk</Civ>
+    <GenericName>Royal Marine</GenericName>
+    <SpecificName>Royal Marine</SpecificName>
+    <Icon>units/uk/royal_marine.png</Icon>
+  </Identity>
+    <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/british/champion_royal_marine.xml</Actor>
+  </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <walk></walk>
+      <run></run>
+    </SoundGroups>
+  </Sound>
+</Entity>

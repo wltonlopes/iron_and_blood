@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_healer">
+  <Identity>
+    <Civ>ottom</Civ>
+    <Phenotype>female</Phenotype>
+    <SpecificName>Nurse</SpecificName>
+    <Icon>units/nurse.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_town phase_village</Techs>
+    </Requirements>
+  </Identity>
+  <Promotion>
+    <Entity>units/ottom/support_healer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/ww1/female_nurse.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman">
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <Civ>ger</Civ>
+    <SelectionGroupName>units/ger/askari</SelectionGroupName>
+    <GenericName>askari</GenericName>
+    <SpecificName>askari</SpecificName>
+    <Icon>units/ger/flammenwerfer.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/german/askari.xml</Actor>
+  </VisualActor>
+</Entity>

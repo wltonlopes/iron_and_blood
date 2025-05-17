@@ -11,9 +11,9 @@
         <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
       </props>
       <textures>
-        <texture file="skeletal/british_uniform_infantry_g.png" name="normTex"/>
-        <texture file="skeletal/british_uniform_infantry_g.png" name="baseTex"/>
-        <texture file="skeletal/british_uniform_infantry_g.png" name="specTex"/>
+        <texture file="skeletal/UK_1_uniform_infantry_pc.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

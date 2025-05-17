@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
+      <props>
+        <prop actor="props/units/helmets/helmet_brit.xml" attachpoint="helmet"/>
+        <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
+        <prop actor="props/units/weapons/lewis_gun.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
+        <prop actor="props/units/quivers/union_belt.xml" attachpoint="sheath_L"/>
+      </props>
+      <textures>
+        <texture file="skeletal/royal_marine.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+    <group> 
+    <variant file="biped/rifleman_base_relax_2.xml"/>
+    <variant file="biped/carry_food_han.xml"/>
+    <variant file="biped/carry_meat.xml"/>
+    <variant file="biped/carry_wood.xml"/>
+    <variant file="biped/carry_stone.xml"/>
+    <variant file="biped/carry_metal.xml"/>
+    <variant file="biped/approach_ruins.xml"/>
+    <variant file="biped/approach_praise.xml"/>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant name="attack_ranged">
+      <animations>
+      <animation event="0.16" file="biped/rifle/shooting/sharpshooter_1.dae" name="attack_ranged" id="attack1" speed="50"/>
+      </animations>
+      <props>
+        <prop actor="props/units/weapons/lewis_gun.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
+    <variant file="biped/rifleman_base_relax_2.xml" name="ready"/>
+    <variant file="biped/attack_capture.xml"/>
+    <variant file="biped/attack_slaughter.xml"/>
+    <variant file="biped/gather_tree.xml"/>
+    <variant file="biped/gather_grain_han.xml"/>
+    <variant file="biped/gather_fruit.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/gather_rock.xml"/>
+    <variant file="biped/gather_ore.xml"/>
+    <variant file="biped/gather_ruins.xml"/>
+    <variant file="biped/gather_praise.xml"/>
+    <variant file="biped/build.xml"/>
+    <variant file="biped/build_farm.xml"/>
+    <variant file="biped/death_infantry.xml"/>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

@@ -1,11 +1,11 @@
 {
     "AINames": [
-        "Ulysses S. Grant",
-        "George Mcclellan",
-        "William Tecumseh Sherman",
-        "George Custer",
-        "Robert Anderson",
-        "Nathaniel Banks"
+        "Douglas Haig",
+        "Edmund Allenby",
+        "Herbert Plumer",
+        "Julian Byng",
+        "David Beatty",
+        "John Jellicoe"
     ],
     "Code": "uk",
     "Culture": "anglo",
@@ -29,14 +29,14 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/uk/civil_centre" 
+			"Template": "structures/uk/civic_center" 
 		},
 		{
 			"Template": "units/uk/support_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/uk/infantry_rifleman_melee_b",
+			"Template": "units/uk/infantry_rifleman_v",
 			"Count": 2 
 		},
 		{
@@ -54,7 +54,7 @@
         "skirmish/units/default_infantry_ranged_b": "units/uk/infantry_rifleman_ranged_b",
         "skirmish/units/default_support_female_citizen": "units/uk/support_female_citizen",
         "skirmish/units/default_cavalry": "units/uk/cavalry_swordsman_b",
-        "skirmish/units/default_infantry_melee_b": "units/uk/infantry_rifleman_melee_b",
+        "skirmish/units/default_infantry_melee_b": "units/uk/infantry_rifleman_v",
         "skirmish/structures/default_civil_centre": "structures/uk/civic_center"
     },
     "Structures": [],

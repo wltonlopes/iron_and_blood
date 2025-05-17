@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_rifleman_var">
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <Civ>ger</Civ>
+   <GenericName>Pioner Infantry</GenericName>
+    <SpecificName>Pioner Infantry</SpecificName>
+    <Icon>units/ger/pionier_infantry.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/german/pionier_infantry_range.xml</Actor>
+  </VisualActor>
+</Entity>

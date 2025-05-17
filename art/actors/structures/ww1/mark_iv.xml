@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Civiccenter">
+      <mesh>structural/ww1/mark_iv.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/> 
+      </props>
+      <textures>
+        <texture file="structural/mark_iv.png" name="baseTex"/>
+        <texture file="structural/mark_iv_norm.png" name="normTex"/>
+        <texture file="structural/mark_iv_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+      <variant file="shoot_mark_iv.xml" name="attack_ranged"/>
+    <variant name="Walk">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

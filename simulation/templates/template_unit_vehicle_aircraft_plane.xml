@@ -4,19 +4,19 @@
     <Ranged>
       <AttackName>AutomaticGun</AttackName>
       <Damage>
-        <Hack>0</Hack>
+        <Hack>10</Hack>
         <Pierce>12</Pierce>
-        <Crush>0</Crush>
+        <Crush>10</Crush>
       </Damage>
-      <MaxRange>100</MaxRange>
-      <PrepareTime>1500</PrepareTime>
+      <MaxRange>50</MaxRange>
+      <PrepareTime>150</PrepareTime>
       <RepeatTime>3000</RepeatTime>
       <Projectile>
-        <Speed>60</Speed>
+        <Speed>40</Speed>
         <Spread>2</Spread>
         <Gravity>50</Gravity>
         <FriendlyFire>false</FriendlyFire>
-        <LaunchPoint y="30"/>
+        <LaunchPoint y="10"/>
       </Projectile>
       <PreferredClasses datatype="tokens">
         Ship
@@ -36,6 +36,7 @@
   <Identity>
     <GenericName>Plane</GenericName>
     <!-- <VisibleClasses datatype="tokens">Ship</VisibleClasses> -->
+    <Icon>units/plane.png</Icon>
   </Identity>
   <Obstruction disable=""/>
   <Position>
@@ -54,10 +55,10 @@
   <UnitMotion disable=""/>
 <UnitMotionFlying>
   <!-- Velocidade típica de biplanos da época (160-220 km/h em valores escalados) -->
-  <MaxSpeed>50.0</MaxSpeed>
+  <MaxSpeed>35.0</MaxSpeed>
   <!-- Decolagem/aterrissagem mais realistas -->
-  <TakeoffSpeed>40.0</TakeoffSpeed>
-  <LandingSpeed>35.0</LandingSpeed>
+  <TakeoffSpeed>20.0</TakeoffSpeed>
+  <LandingSpeed>15.0</LandingSpeed>
   
   <!-- Aceleração melhorada para dogfights -->
   <AccelRate>8.0</AccelRate>
@@ -69,7 +70,7 @@
   <OvershootTime>2.5</OvershootTime>
   
   <!-- Voando baixo para ataques terrestres -->
-  <FlyingHeight>30.0</FlyingHeight>
+  <FlyingHeight>20.0</FlyingHeight>
   <!-- Subida rápida (aviões leves) -->
   <ClimbRate>3.5</ClimbRate>
   
@@ -79,7 +80,7 @@
   <PassabilityClass>unrestricted</PassabilityClass>
 </UnitMotionFlying>
   <Vision>
-    <Range>100</Range>
+    <Range>80</Range>
   </Vision>
   <VisualActor>
     <Actor>units/global/plane.xml</Actor>

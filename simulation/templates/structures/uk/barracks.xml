@@ -7,9 +7,6 @@
   <Identity>
     <Civ>uk</Civ>
   </Identity>
-  <StatusBars>
-    <HeightOffset>22.0</HeightOffset>
-  </StatusBars>
   <VisualActor>
     <Actor>structures/ww1/uk/barracks.xml</Actor>
   </VisualActor>

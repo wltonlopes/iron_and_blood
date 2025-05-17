@@ -5,15 +5,23 @@
     <variant frequency="1" name="Civiccenter">
       <mesh>structural/ww1/a7v.dae</mesh>
       <props>
-
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="projectile"/>
       </props>
       <textures>
         <texture file="structural/a7v.png" name="baseTex"/>
-        <texture file="structural/a7v.png" name="normTex"/>
       </textures>
     </variant>
   </group>
   <group>
+    <variant frequency="100" name="Idle"/>
+    <variant name="Walk">
+      <props>
+        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <!-- <group>
     <variant frequency="1" name="alive"/>
     <variant name="death">
       <props>
@@ -23,6 +31,6 @@
         <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
       </props>
     </variant>
-  </group>
+  </group> -->
   <material>player_trans.xml</material>
 </actor>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant name="a">
+      <mesh>props/helmet/helmet_fez.dae</mesh>
+    </variant>
+  </group>
+  <group>
+    <variant name="1">
+      <textures>
+        <texture file="skeletal/fra_02_uniform_infantry_pc.png" name="baseTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>player_trans.xml</material>
+</actor>

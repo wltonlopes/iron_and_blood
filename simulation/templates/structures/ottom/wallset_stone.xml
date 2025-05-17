@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_wallset">
+  <Identity>
+    <Civ>ottom</Civ>
+    <SpecificName>Teichos</SpecificName>
+    <History>The idea to build a corridor of walls from ottommans to the sea was probably first proposed by the politician Themistocles after ottommans was partially destroyed during the second Persian invasion. While the curtain walls around the city were constructed right away, the famous Long Walls would not come into being until 20 years later, around 460 BC.
+
+The two Long Walls each measuring 6 kilometers in length, stood parallel, 200 meters apart, protecting the passage to ottommans' port, Piraeus. Another wall further to the east was also constructed towards another smaller port called Phaleron, forming a triangle enclosed by the walls and the shore that could be used for agriculture. The entire ottommanian wall system was over 25 kilometers long, around 3 meters wide, and 9 meters high, and became a majestic symbol for ottommans' power and dominance.
+
+The walls formed a key point in their war strategy; the ottommanians could avoid fighting their enemies on land and instead rely on their powerful navy to engage in combat with them on the open sea or to raid the enemy coastline. And in case of a siege, ottommans' naval superiority ensured access to grain shipments from the ottommanian colonies along the Black Sea, making the city nigh impregnable.
+
+This strategy worked well, however, only as long as ottommanian ships were able to provide a constant inflow of food. For example, when the ottommanian fleet was annihilated at Aegospotami (405 BC) in the Peloponnesian War, the besieged city of ottommans' was cut off from food supplies and had no choice but to surrender.</History>
+  </Identity>
+  <WallSet>
+    <Templates>
+      <Tower>structures/ottom/wall_tower</Tower>
+      <Gate>structures/ottom/wall_gate</Gate>
+      <WallLong>structures/ottom/wall_long</WallLong>
+      <WallMedium>structures/ottom/wall_medium</WallMedium>
+      <WallShort>structures/ottom/wall_short</WallShort>
+    </Templates>
+    <MaxTowerOverlap>0.90</MaxTowerOverlap>
+    <MinTowerOverlap>0.05</MinTowerOverlap>
+  </WallSet>
+</Entity>

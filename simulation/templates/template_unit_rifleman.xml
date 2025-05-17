@@ -30,7 +30,7 @@
   </Cost>
   <Identity>
     <GenericName>Infantry</GenericName>
-    <SelectionGroupName>units/surv/rifle</SelectionGroupName>
+    <SelectionGroupName>units/rifleman</SelectionGroupName>
     <Classes datatype="tokens">Human CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry</VisibleClasses>
     <Rank>Basic</Rank>

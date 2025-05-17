@@ -27,7 +27,7 @@
   <group>
     <variant name="Base_a">
       <animations>
-        <animation file="quadraped/horse_idle_rest.dae" name="idle" speed="60"/>
+        <animation file="quadraped/horse_promotion.dae" name="idle" speed="60"/>
         <animation file="quadraped/horse_death.dae" name="death" speed="140"/>
       </animations>
     </variant>

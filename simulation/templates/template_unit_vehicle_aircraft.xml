@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_vehicle">
+<Attack>
+    <Ranged>
+      <AttackName>AutomaticGun</AttackName>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>12</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+      <MaxRange>100</MaxRange>
+      <PrepareTime>1500</PrepareTime>
+      <RepeatTime>3000</RepeatTime>
+      <Projectile>
+        <Speed>40</Speed>
+        <Spread>2</Spread>
+        <Gravity>50</Gravity>
+        <FriendlyFire>false</FriendlyFire>
+        <LaunchPoint y="50"/>
+      </Projectile>
+      <PreferredClasses datatype="tokens">
+        Ship
+        Human
+      </PreferredClasses>
+    </Ranged>
+  </Attack>
   <Decay>
     <SinkingAnim>true</SinkingAnim>
     <DelayTime>1.0</DelayTime>
@@ -44,10 +68,10 @@
   <UnitMotion disable=""/>
 <UnitMotionFlying>
   <!-- Velocidade reduzida para refletir a natureza pesada dos Zeppelins -->
-  <MaxSpeed>35.0</MaxSpeed>  
+  <MaxSpeed>23.0</MaxSpeed>  
   <!-- Decolagem/aterrissagem suaves -->
   <TakeoffSpeed>20.0</TakeoffSpeed>
-  <LandingSpeed>15.0</LandingSpeed>
+  <LandingSpeed>10.0</LandingSpeed>
   
   <!-- Aceleração/desaceleração lentas -->
   <AccelRate>1.5</AccelRate>

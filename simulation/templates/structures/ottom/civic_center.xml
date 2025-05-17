@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Identity>
+    <Civ>ottom</Civ>
+    <SpecificName>QG</SpecificName>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_rifleman_ranged_b
+      units/{civ}/a7v
+      units/{civ}/cavalry_swordsman_b
+      units/{civ}/siege_lithobolos_packed
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ww1/ottom/qg.xml</Actor>
+  </VisualActor>
+</Entity>
+

@@ -6,11 +6,8 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_rifleman_ranged_flammenwerfer
       units/{civ}/infantry_rifleman_ranged_b
-      units/{civ}/a7v
       units/{civ}/cavalry_swordsman_b
-      units/{civ}/siege_lithobolos_packed
     </Entities>
   </Trainer>
   <VisualActor>

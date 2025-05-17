@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_stonethrower">
   <Identity>
-    <Civ>ger</Civ>
+    <Civ>uk</Civ>
     <SpecificName>Lithobólos</SpecificName>
     <Icon>units/hele/siege_lithobolos_packed.png</Icon>
-    <Requirements>
-      <Techs datatype="tokens">
-        -phase_city
-      </Techs>
-    </Requirements>
   </Identity>
   <Pack>
-    <Entity>units/ger/siege_lithobolos_unpacked</Entity>
+    <Entity>units/uk/siege_lithobolos_unpacked</Entity>
     <State>packed</State>
   </Pack>
   <VisualActor>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_vehicle_landvehicle">
+  <Health>
+    <Max>1000</Max>
+  </Health>
+  <Identity>
+    <Civ>ger</Civ>
+    <SpecificName>A7V</SpecificName>
+    <Icon>units/ger/a7v.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/ww1/a7v.xml</Actor>
+  </VisualActor>
+</Entity>

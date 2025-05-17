@@ -4,9 +4,9 @@
     <Ranged>
       <AttackName>AutomaticGun</AttackName>
       <Damage>
-        <Hack>0</Hack>
-        <Pierce>12</Pierce>
-        <Crush>0</Crush>
+        <Hack>10</Hack>
+        <Pierce>30</Pierce>
+        <Crush>10</Crush>
       </Damage>
       <MaxRange>40</MaxRange>
       <PrepareTime>1500</PrepareTime>
@@ -40,8 +40,8 @@
     </Overlay>
   </Selectable>
   <UnitMotion>
-    <WalkSpeed>10</WalkSpeed>
-    <Acceleration op="mul">2.8</Acceleration>
+    <WalkSpeed>5</WalkSpeed>
+    <Acceleration op="mul">1.8</Acceleration>
   </UnitMotion>
   <Vision>
     <Range>80</Range>

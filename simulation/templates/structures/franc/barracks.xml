@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_barracks">
+  <Footprint>
+    <Square width="10.0" depth="10.5"/>
+    <Height>15.0</Height>
+  </Footprint>
+  <Identity>
+    <Civ>franc</Civ>
+  </Identity>
+  <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/infantry_champion_rifleman
+    </Entities>
+  </Trainer>
+  <VisualActor>
+    <Actor>structures/ww1/franc/barracks.xml</Actor>
+  </VisualActor>
+</Entity>

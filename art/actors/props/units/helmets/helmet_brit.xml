@@ -10,8 +10,10 @@
     <variant name="1">
       <textures>
         <texture file="props/helmet/brit_helmet.png" name="baseTex"/>
+        <texture file="props/helmet/celt_berru_01_norm.png" name="normTex"/>
+        <texture file="props/helmet/celt_berru_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>basic_trans_parallax_spec.xml</material>
 </actor>

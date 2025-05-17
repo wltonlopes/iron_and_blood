@@ -1,0 +1,68 @@
+{
+    "AINames": [
+        "Paul Emil von Lettow-Vorbeck",
+        "Alfred von Tirpitz",
+        "Paul von Hindenburg",
+        "August von Mackensen",
+        "Erich von Falkenhayn",
+        "Helmuth von Moltke",
+        "Erich Ludendorff"
+    ],
+    "Code": "russ",
+    "Culture": "",
+    "Factions": [],
+    "CivBonuses": [],
+    "History": "",
+    "Music": [],
+    "Formations": [
+        "special/formations/null",
+        "special/formations/box",
+        "special/formations/column_closed",
+        "special/formations/line_closed",
+        "special/formations/column_open",
+        "special/formations/line_open",
+        "special/formations/flank",
+        "special/formations/battle_line",
+        "special/formations/skirmish",
+        "special/formations/wedge"
+    ],
+    "SelectableInGameSetup": false,
+	"StartEntities":
+	[
+		{
+			"Template": "structures/russ/civic_center" 
+		},
+		{
+			"Template": "units/russ/support_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/russ/infantry_rifleman_melee_b",
+			"Count": 2 
+		},
+		{
+			"Template": "units/russ/support_female_citizen",
+			"Count": 4 
+		},
+		{
+			"Template": "units/russ/infantry_rifleman_ranged_b" 
+		},
+		{
+			"Template": "units/russ/cavalry_swordsman_b" 
+		}
+	],
+    "SkirmishReplacements": {
+        "skirmish/units/default_infantry_ranged_b": "units/{civ}/infantry_rifleman_ranged_b",
+        "skirmish/units/default_support_female_citizen": "units/{civ}/support_female_citizen",
+        "skirmish/units/default_cavalry": "units/{civ}/cavalry_swordsman_b",
+        "skirmish/units/default_infantry_melee_b": "units/{civ}/infantry_rifleman_melee_b",
+		"skirmish/structures/iber_wall_short": "structures/russ/wall_short",
+		"skirmish/structures/iber_wall_medium": "structures/russ/wall_medium",
+		"skirmish/structures/iber_wall_long": "structures/russ/wall_long",
+		"skirmish/structures/iber_wall_gate": "structures/russ/wall_gate",
+		"skirmish/structures/iber_wall_tower": "structures/russ/wall_tower",
+        "skirmish/structures/default_civil_centre": "structures/russ/civic_center"
+    },
+    "Structures": [],
+    "TeamBonuses": []
+}

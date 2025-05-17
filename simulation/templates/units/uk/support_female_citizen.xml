@@ -3,8 +3,6 @@
   <Identity>
     <Civ>uk</Civ>
     <SpecificName>logists</SpecificName>
-    <GenericName>Roman Woman</GenericName>
-    <Icon>units/rome/support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/support_logistic.xml</Actor>

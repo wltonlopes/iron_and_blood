@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_pikeman">
+  <Resistance>
+    <Entity>
+      <Damage>
+        <Hack>0</Hack>
+        <Pierce>0</Pierce>
+        <Crush>0</Crush>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>0.0</Hack>
+        <Pierce>25.0</Pierce>
+        <Crush>0.0</Crush>
+      </Damage>
+      <MaxRange>4</MaxRange>
+      <PrepareTime>0</PrepareTime>
+      <RepeatTime>1500</RepeatTime>
+      <Bonuses>
+        <BonusCavMelee>
+          <Classes>Cavalry</Classes>
+          <Multiplier>3.0</Multiplier>
+        </BonusCavMelee>
+      </Bonuses>
+      <PreferredClasses datatype="tokens">Human</PreferredClasses>
+    </Melee>
+  </Attack>
+  <Cost>
+    <Resources>
+      <wood>100</wood>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>200</Max>
+  </Health>
+  <Identity>
+    <SelectionGroupName>units/infantry_melee</SelectionGroupName>
+    <Icon>units/union/infantry_rifleman_melee_b.png</Icon>
+  </Identity>
+  <Promotion disable=""/>
+  <Upgrade>
+    <RangeAttack>
+      <Entity>units/{civ}/infantry_rifleman_v</Entity>
+      <Tooltip>Sending.</Tooltip>
+      <Time>5</Time>
+    </RangeAttack>
+  </Upgrade>
+  <UnitMotion>
+    <WalkSpeed op="mul">1.6</WalkSpeed>
+  </UnitMotion>
+</Entity>

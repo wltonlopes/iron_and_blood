@@ -12,10 +12,11 @@
   </Health>
   <Identity>
     <Phenotype>male</Phenotype>
-    <GenericName>Militar logists</GenericName>
-    <SelectionGroupName>template_unit_supports</SelectionGroupName>
+    <GenericName>supply wagons</GenericName>
+    <SelectionGroupName>template_unit_supply_wagons</SelectionGroupName>
     <Classes datatype="tokens">Citizen</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker</VisibleClasses>
+    <Icon>units/supply_wagons.png</Icon>
   </Identity>
   <Loot>
     <xp>3</xp>
@@ -62,6 +63,9 @@
       <trained>interface/alarm/alarm_create_female.xml</trained>
     </SoundGroups>
   </Sound>
+  <TrainingRestrictions>
+    <Category>Logistics</Category>
+  </TrainingRestrictions>
   <UnitAI>
     <CanPatrol>false</CanPatrol>
     <Formations disable=""/>

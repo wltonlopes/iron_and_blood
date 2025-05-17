@@ -20,9 +20,9 @@
   <group>
     <variant frequency="1" name="Iber-Chainmail-01-03">
       <textures>
-        <texture file="skeletal/germany_uniform.png" name="normTex"/>
         <texture file="skeletal/germany_uniform.png" name="baseTex"/>
-        <texture file="skeletal/germany_uniform.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>

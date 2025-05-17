@@ -3,18 +3,18 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_pants_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_pants_tunic_long.dae</mesh>
       <props>
         <prop actor="props/units/helmets/helmet_brit.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/new/head_celt_2.xml" attachpoint="head"/>
-        <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/rifle_idle.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/quivers/union_rucksack.xml" attachpoint="back"/>
         <prop actor="props/units/quivers/union_belt.xml" attachpoint="sheath_L"/>
       </props>
       <textures>
-        <texture file="skeletal/uk_uniform_infantry_pc.png" name="normTex"/>
-        <texture file="skeletal/uk_uniform_infantry_pc.png" name="baseTex"/>
-        <texture file="skeletal/uk_uniform_infantry_pc.png" name="specTex"/>
+        <texture file="skeletal/UK_1_uniform_infantry_pc.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -25,18 +25,19 @@
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
-    <variant file="biped/approach_tree.xml"/>
-    <variant file="biped/approach_grain_han.xml"/>
-    <variant file="biped/approach_fruit.xml"/>
-    <variant file="biped/approach_meat.xml"/>
-    <variant file="biped/approach_rock.xml"/>
-    <variant file="biped/approach_ore.xml"/>
     <variant file="biped/approach_ruins.xml"/>
     <variant file="biped/approach_praise.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
-    <variant file="biped/rifleman_base_relax.xml" name="Attack_Ranged"/>
+    <variant file="biped/rifleman_base_relax.xml" name="attack_ranged">
+      <animations>
+      <animation event="0.16" file="biped/rifle/shooting/stand_1.dae" name="attack_ranged" id="attack1" speed="50"/>
+      </animations>
+      <props>
+        <prop actor="props/units/weapons/rifle.xml" attachpoint="weapon_R"/>
+      </props>
+    </variant>
     <variant file="biped/rifleman_base_relax.xml" name="ready"/>
     <variant file="biped/attack_capture.xml"/>
     <variant file="biped/attack_slaughter.xml"/>

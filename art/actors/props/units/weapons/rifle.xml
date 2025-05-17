@@ -11,7 +11,14 @@
   <group>
     <variant frequency="1" name="sarissa_a">
       <mesh>props/rifle.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+      </props>
     </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="weapons/shootr.xml" name="Attack_Ranged"/>
   </group>
   <material>objectcolor.xml</material>
 </actor>

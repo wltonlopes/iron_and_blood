@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <variant name="Base" frequency="1">
   <animations>
-    <animation file="biped/rifle/relax/idle_a_1.dae" name="Idle" speed="50"/>
+    <animation file="biped/new/rifleman_idle_1.dae" name="Idle" speed="50"/>
+    <animation file="biped/new/rifleman_walk_1.dae" name="Walk" speed="20"/>
+    <animation file="biped/new/rifleman_walk_1.dae" name="run" speed="30"/>
+    <!-- <animation file="biped/rifle/relax/idle_a_1.dae" name="Idle" speed="50"/>
     <animation file="biped/rifle/relax/walk_1.dae" name="Walk" speed="20"/>
-    <animation file="biped/rifle/relax/jog_1.dae" name="run" speed="30"/>
-    <animation event="0.16" file="biped/rifle/shooting/stand_1.dae" name="attack_ranged" id="attack1" speed="50"/>
+    <animation file="biped/rifle/relax/jog_1.dae" name="run" speed="30"/> -->
   </animations>
 </variant>

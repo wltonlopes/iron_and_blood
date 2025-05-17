@@ -9,7 +9,7 @@
   <group>
     <variant name="1">
       <textures>
-        <texture file="props/helmet/helmet_stahlhelm.png" name="baseTex"/>
+        <texture file="skeletal/germany_uniform.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

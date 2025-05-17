@@ -141,6 +141,7 @@
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
       units/{civ}/support_female_citizen
+      units/{civ}/infantry_rifleman_v
     </Entities>
   </Trainer>
   <Vision>
