@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_rifleman">
+<Entity parent="template_unit_champion_rifleman_sniper">
   <Cost>
     <Resources>
       <wood>100</wood>
@@ -10,13 +10,13 @@
   </Health>
   <Identity>
     <Civ>ottom</Civ>
-    <GenericName>Ottoman Stormtrooper</GenericName>
-    <SpecificName>Ottoman Stormtrooper</SpecificName>
-    <Icon>units/ger/stormtrooper.png</Icon>
+    <GenericName>Ottoman Rifleman</GenericName>
+    <SpecificName>Hafız Nişancı</SpecificName>
+    <Icon>units/ottom/hafız.png</Icon>
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/ottom/stormtrooper.xml</Actor>
+    <Actor>units/ottom/champion_sniper.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

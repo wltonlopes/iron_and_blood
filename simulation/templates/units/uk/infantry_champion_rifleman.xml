@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_rifleman">
+<Entity parent="template_unit_champion_rifleman_machine_gun">
   <Cost>
     <Resources>
       <wood>100</wood>

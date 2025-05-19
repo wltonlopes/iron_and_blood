@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_vehicle_landvehicle">
+  <Identity>
+    <Civ>franc</Civ>
+    <SpecificName>ft_17</SpecificName>
+    <Icon>units/franc/ft17.png</Icon>
+  </Identity>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+          <X>0.0</X>
+          <Y>0.5</Y>
+          <Z>0.0</Z>
+          <Template>units/franc/ft_17_t</Template>
+          <Angle>0.1</Angle>
+      <Ejectable>false</Ejectable>
+      </One>
+    </TurretPoints>
+  </TurretHolder>
+  <VisualActor>
+    <Actor>structures/ww1/ft_17.xml</Actor>
+  </VisualActor>
+</Entity>

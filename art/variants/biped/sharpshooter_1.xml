@@ -1,0 +1,7 @@
+<variant name="Base" frequency="1">
+  <animations>
+    <animation file="biped/rifle/relax/idle_a_1.dae" name="Idle" speed="50"/>
+    <animation file="biped/rifle/relax/walk_1.dae" name="Walk" speed="20"/>
+    <animation file="biped/rifle/relax/jog_1.dae" name="run" speed="30"/>
+  </animations>
+</variant>

@@ -18,6 +18,7 @@
     <Trainer>
     <Entities datatype="tokens">
       units/{civ}/plane
+      units/{civ}/ft_17
     </Entities>
   </Trainer>
   <VisualActor>
