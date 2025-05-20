@@ -16,7 +16,7 @@
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/german/infantry_line.xml</Actor>
+    <Actor>units/german/line_infantry.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

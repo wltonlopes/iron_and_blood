@@ -11,6 +11,12 @@
   <Obstruction>
     <Static width="24.0" depth="17.0"/>
   </Obstruction>
+    <Trainer>
+    <Entities datatype="tokens">
+      units/{civ}/plane
+      units/{civ}/elephant_archer_b
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/ww1/uk/arsenal_garagem.xml</Actor>
   </VisualActor>

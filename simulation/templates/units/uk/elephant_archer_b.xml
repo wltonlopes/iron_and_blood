@@ -6,7 +6,7 @@
   <Identity>
     <Civ>uk</Civ>
     <SpecificName>mark iv</SpecificName>
-    <Icon>units/hele/siege_lithobolos_packed.png</Icon>
+    <Icon>units/uk/markiv.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/ww1/mark_iv.xml</Actor>
