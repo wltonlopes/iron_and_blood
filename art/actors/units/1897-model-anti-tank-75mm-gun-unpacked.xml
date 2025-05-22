@@ -6,6 +6,7 @@
       <mesh>props/units/weapons/1897-model-anti-tank-75mm-gun-unpacked.dae</mesh>
       <props>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
         <prop actor="units/1897-model-anti-tank-75mm-gun-crewman.xml" attachpoint="root"/>
       </props>

@@ -30,7 +30,7 @@
   </Cost>
   <Identity>
     <GenericName>Infantry</GenericName>
-    <SelectionGroupName>units/infantry_range_range</SelectionGroupName>
+    <SelectionGroupName>units/infantry_range</SelectionGroupName>
     <Classes datatype="tokens">Human CitizenSoldier</Classes>
     <VisibleClasses datatype="tokens">Citizen Worker Soldier Infantry</VisibleClasses>
     <Rank>Basic</Rank>

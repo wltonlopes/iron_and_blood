@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_vehicle_aircraft">
+<Entity parent="template_unit_vehicle_zeppelin">
   <Identity>
     <Civ>ger</Civ>
     <SpecificName>Zeppelin</SpecificName>
-    <Icon>units/hele/siege_lithobolos_packed.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/ww1/zeppelin.xml</Actor>

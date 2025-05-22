@@ -18,10 +18,7 @@
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="10"/>
       </Projectile>
-      <PreferredClasses datatype="tokens">
-        Ship
-        Human
-      </PreferredClasses>
+      <RestrictedClasses datatype="tokens">Organic Structure</RestrictedClasses>
     </Ranged>
   </Attack>
   <Footprint replace="">
@@ -35,12 +32,12 @@
   </Health>
   <Identity>
     <GenericName>Plane</GenericName>
-    <!-- <VisibleClasses datatype="tokens">Ship</VisibleClasses> -->
+    <VisibleClasses datatype="tokens">Aircraft</VisibleClasses>
     <Icon>units/plane.png</Icon>
   </Identity>
   <Obstruction disable=""/>
   <Position>
-    <Altitude>50</Altitude>
+    <Altitude>40</Altitude>
     <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <FloatDepth>0</FloatDepth>
@@ -55,7 +52,7 @@
   <UnitMotion disable=""/>
 <UnitMotionFlying>
   <!-- Velocidade típica de biplanos da época (160-220 km/h em valores escalados) -->
-  <MaxSpeed>35.0</MaxSpeed>
+  <MaxSpeed>25.0</MaxSpeed>
   <!-- Decolagem/aterrissagem mais realistas -->
   <TakeoffSpeed>20.0</TakeoffSpeed>
   <LandingSpeed>15.0</LandingSpeed>

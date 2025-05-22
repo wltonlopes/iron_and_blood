@@ -6,6 +6,7 @@
       <mesh>structural/ww1/ft_17_t.dae</mesh>
       <props>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="projectile"/>
       </props>
       <textures>

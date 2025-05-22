@@ -17,11 +17,11 @@
         <Gravity>50</Gravity>
         <FriendlyFire>false</FriendlyFire>
         <LaunchPoint y="3"/>
+        <ImpactActorName>particle/exp_big.xml</ImpactActorName>
+        <ImpactAnimationLifetime>0.2</ImpactAnimationLifetime>
       </Projectile>
-      <PreferredClasses datatype="tokens">
-        Ship
-        Human
-      </PreferredClasses>
+      <PreferredClasses datatype="tokens">Structure</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Field Aircraft</RestrictedClasses>
     </Ranged>
   </Attack>
   <GarrisonHolder>

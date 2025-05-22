@@ -8,6 +8,7 @@
     <Entities datatype="tokens">
       units/{civ}/infantry_rifleman_ranged_b
       units/{civ}/cavalry_swordsman_b
+       units/{civ}/zeppelin
     </Entities>
   </Trainer>
   <VisualActor>

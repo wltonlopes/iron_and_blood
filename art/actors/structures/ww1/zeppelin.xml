@@ -4,6 +4,10 @@
   <group>
     <variant frequency="1" name="Civiccenter">
       <mesh>structural/ww1/zeppelin.dae</mesh>
+      <props>
+        <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="loaded_projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_med_flaming.xml" attachpoint="projectile"/>
+      </props>
       <textures>
         <texture file="structural/ww1_ger_struct.png" name="baseTex"/>
         <texture file="structural/ww1_struct_norm.png" name="normTex"/>

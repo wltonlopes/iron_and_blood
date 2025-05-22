@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry">
+  <Attack>
+    <Melee>
+      <PreferredClasses datatype="tokens">Organic</PreferredClasses>
+      <RestrictedClasses datatype="tokens">Aircraft</RestrictedClasses>
+    </Melee>
+  </Attack>
+  <Health>
+    <Max>160</Max>
+  </Health>
+  <Identity>
+    <GenericName>Melee Cavalry</GenericName>
+    <VisibleClasses datatype="tokens">Melee</VisibleClasses>
+  </Identity>
+</Entity>
