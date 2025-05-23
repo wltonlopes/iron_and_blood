@@ -62,6 +62,9 @@
   </Health>
   <Identity>
     <GenericName>Zeppelin</GenericName>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
    <VisibleClasses datatype="tokens">Zeppelin</VisibleClasses>
    <Icon>units/zeppelin.png</Icon>
   </Identity>

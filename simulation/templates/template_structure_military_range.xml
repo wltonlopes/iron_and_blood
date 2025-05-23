@@ -44,13 +44,7 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/infantry_javelineer_b
-      units/{civ}/infantry_slinger_b
-      units/{civ}/infantry_archer_b
-      units/{civ}/infantry_crossbowman_b
-      units/{civ}/champion_infantry_javelineer
-      units/{civ}/champion_infantry_slinger
-      units/{civ}/champion_infantry_archer
+      units/{civ}/siege_105_packed
       units/{civ}/champion_infantry_crossbowman
     </Entities>
   </Trainer>

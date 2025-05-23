@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_siege_stonethrower">
+  <Cost>
+    <BuildTime>25</BuildTime>
+    <Resources>
+      <wood>400</wood>
+      <stone>250</stone>
+    </Resources>
+  </Cost>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Identity>
+    <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>
+  </Identity>
+  <Loot>
+    <xp>250</xp>
+    <wood>80</wood>
+    <stone>50</stone>
+  </Loot>
+  <Vision>
+    <Range>120</Range>
+  </Vision>
+  <VisualActor>
+    <Actor>units/1935-model-105mm.xml</Actor>
+  </VisualActor> 
+</Entity>
