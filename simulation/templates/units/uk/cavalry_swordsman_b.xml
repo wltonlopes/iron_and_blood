@@ -3,14 +3,13 @@
   <Identity>
     <Civ>uk</Civ>
     <SelectionGroupName>units/british/cavalry_swordsman_b</SelectionGroupName>
-    <SpecificName>Heavy Cavalry</SpecificName>
-    <VisibleClasses datatype="tokens">Guerilla</VisibleClasses>
+    <SpecificName>Yeomanry</SpecificName>
     <Icon>units/cavalry_swordsman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/uk/cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/british/cavalry_swordsman_e_m.xml</Actor>
+    <Actor>units/uk/cavalry_swordsman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

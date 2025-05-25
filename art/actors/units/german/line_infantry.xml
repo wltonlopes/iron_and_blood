@@ -18,7 +18,7 @@
       </textures>
     </variant>
   </group>
-    <group> 
+  <group> 
     <variant file="biped/rifleman_base_relax.xml"/>
     <variant file="biped/carry_food_han.xml"/>
     <variant file="biped/carry_meat.xml"/>

@@ -43,8 +43,8 @@
     <SinkAccel>2.5</SinkAccel>
   </Decay>
   <Footprint replace="">
-    <Square width="1.0" depth="1.0"/>
-    <Height>1.0</Height>
+    <Square width="5.0" depth="5.0"/>
+    <Height>40.0</Height>
     <MaxSpawnDistance>1</MaxSpawnDistance>
   </Footprint>
   <GarrisonHolder>
@@ -65,12 +65,12 @@
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>
-   <VisibleClasses datatype="tokens">Zeppelin</VisibleClasses>
+   <VisibleClasses datatype="tokens">Zeppelin Aircraft</VisibleClasses>
    <Icon>units/zeppelin.png</Icon>
   </Identity>
   <Obstruction disable=""/>
   <Position>
-    <Altitude>40</Altitude>
+    <Altitude>35</Altitude>
     <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <FloatDepth>4</FloatDepth>
@@ -89,8 +89,8 @@
   </UnitAI>
   <UnitMotion>
     <PassabilityClass>unrestricted</PassabilityClass>
+    <Acceleration op="mul">0.5</Acceleration>
     <InstantTurnAngle>10</InstantTurnAngle>
-    <Acceleration op="mul">1.1</Acceleration>
   </UnitMotion>
   <Vision>
     <Range>100</Range>

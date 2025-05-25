@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>ottom</Civ>
+    <SpecificName></SpecificName>
+  </Identity>
+  <VisualActor>
+    <Actor>structures/ww1/tower_bunker.xml</Actor>
+  </VisualActor>
+</Entity>

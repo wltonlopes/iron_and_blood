@@ -8,6 +8,26 @@
     <SpecificName>A7V</SpecificName>
     <Icon>units/ger/a7v.png</Icon>
   </Identity>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+          <X>0.0</X>
+          <Y>4.0</Y>
+          <Z>-3</Z>
+          <Template>units/uk/mark_iv_t</Template>
+          <Angle>0.1</Angle>
+      <Ejectable>false</Ejectable>
+      </One>
+      <Two>
+          <X>0.0</X>
+          <Y>4.0</Y>
+          <Z>3</Z>
+          <Template>units/uk/mark_iv_t</Template>
+          <Angle>0.1</Angle>
+      <Ejectable>false</Ejectable>
+      </Two>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/ww1/a7v.xml</Actor>
   </VisualActor>

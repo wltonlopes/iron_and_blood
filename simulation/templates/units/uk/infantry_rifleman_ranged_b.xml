@@ -16,7 +16,7 @@
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/british/rifle_assalt_tommy.xml</Actor>
+    <Actor>units/uk/rifle_assalt_tommy.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

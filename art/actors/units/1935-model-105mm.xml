@@ -7,7 +7,6 @@
       <props>
         <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
-        <prop actor="units/1897-model-anti-tank-75mm-gun-crewman.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="props/units/weapons/75-model-1897.png" name="baseTex"/>

@@ -32,12 +32,12 @@
   </Health>
   <Identity>
     <GenericName>Plane</GenericName>
-    <VisibleClasses datatype="tokens">Aircraft</VisibleClasses>
+    <VisibleClasses datatype="tokens"> Plane</VisibleClasses>
     <Icon>units/plane.png</Icon>
   </Identity>
   <Obstruction disable=""/>
   <Position>
-    <Altitude>40</Altitude>
+    <Altitude>1</Altitude>
     <Anchor>upright</Anchor>
     <Floating>true</Floating>
     <FloatDepth>0</FloatDepth>
@@ -67,7 +67,7 @@
   <OvershootTime>2.5</OvershootTime>
   
   <!-- Voando baixo para ataques terrestres -->
-  <FlyingHeight>20.0</FlyingHeight>
+  <FlyingHeight>30.0</FlyingHeight>
   <!-- Subida rápida (aviões leves) -->
   <ClimbRate>3.5</ClimbRate>
   

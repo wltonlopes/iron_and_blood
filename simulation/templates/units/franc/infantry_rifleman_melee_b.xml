@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_rifleman">
+<Entity parent="col_trops|template_unit_rifleman">
   <Cost>
     <Resources>
       <wood>100</wood>

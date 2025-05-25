@@ -16,7 +16,7 @@
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/british/champion_royal_marine.xml</Actor>
+    <Actor>units/uk/champion_royal_marine.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cannon_anti_air">
+  <Identity>
+    <Civ>ottom</Civ>
+    <GenericName>Stormtrooper</GenericName>
+    <SpecificName>Stormtrooper</SpecificName>
+    <Icon>units/ottom/infantry_reg.png</Icon>
+  </Identity>
+    <Promotion disable=""/>
+  <VisualActor>
+    <Actor>units/ottom/tower_anti_a.xml</Actor>
+  </VisualActor>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/musket.xml</attack_ranged>
+      <walk></walk>
+      <run></run>
+    </SoundGroups>
+  </Sound>
+</Entity>

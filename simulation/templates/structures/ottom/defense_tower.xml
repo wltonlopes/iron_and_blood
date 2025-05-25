@@ -4,7 +4,19 @@
     <Civ>ottom</Civ>
     <SpecificName></SpecificName>
   </Identity>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+          <X>0.0</X>
+          <Y>0.4</Y>
+          <Z>0.0</Z>
+          <Template>units/ottom/infantry_champion_anti_air</Template>
+          <Angle>0.1</Angle>
+      <Ejectable>false</Ejectable>
+      </One>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
-    <Actor>structures/ww1/tower_bunker.xml</Actor>
+    <Actor>structures/ww1/tower_defense.xml</Actor>
   </VisualActor>
 </Entity>

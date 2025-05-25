@@ -4,7 +4,15 @@
     <Civ>franc</Civ>
     <SpecificName></SpecificName>
   </Identity>
+  <Position>
+    <Altitude>30</Altitude>
+    <Anchor>upright</Anchor>
+    <Floating>true</Floating>
+    <FloatDepth>0</FloatDepth>
+    <TurnRate>1</TurnRate>
+  </Position>
   <VisualActor>
-    <Actor>props/special/palisade_rocks_watchtower.xml</Actor>
+    <Actor>structures/ww1/b_caquot.xml</Actor>
+    <FoundationActor>structures/fndn_1x1.xml</FoundationActor>
   </VisualActor>
 </Entity>

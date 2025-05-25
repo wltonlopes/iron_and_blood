@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="ft_17">
+      <mesh>structural/ww1/mark_iv_tower_lat.dae</mesh>
+      <props>
+        <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
+        <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="projectile"/>
+      </props>
+      <textures>
+        <texture file="structural/mark_iv.png" name="baseTex"/>
+        <texture file="structural/mark_iv_norm.png" name="normTex"/>
+        <texture file="structural/mark_iv_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

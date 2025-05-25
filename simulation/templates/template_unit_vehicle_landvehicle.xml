@@ -5,8 +5,8 @@
       <AttackName>AutomaticGun</AttackName>
       <Damage>
         <Hack>10</Hack>
-        <Pierce>30</Pierce>
-        <Crush>10</Crush>
+        <Pierce>50</Pierce>
+        <Crush>20</Crush>
       </Damage>
       <MaxRange>40</MaxRange>
       <PrepareTime>1500</PrepareTime>
@@ -27,6 +27,10 @@
   <GarrisonHolder>
     <List datatype="tokens">Support Soldier Dog Relic</List>
   </GarrisonHolder>
+  <Health>
+    <Max>400</Max>
+    <Unhealable>true</Unhealable>
+  </Health>
   <Identity>
     <GenericName>LandVehicle</GenericName>
     <VisibleClasses datatype="tokens">LandVehicle</VisibleClasses>

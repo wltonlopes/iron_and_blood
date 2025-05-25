@@ -8,6 +8,26 @@
     <SpecificName>mark iv</SpecificName>
     <Icon>units/uk/markiv.png</Icon>
   </Identity>
+  <TurretHolder>
+    <TurretPoints>
+      <One>
+          <X>0.0</X>
+          <Y>0.5</Y>
+          <Z>0.0</Z>
+          <Template>units/uk/mark_iv_t</Template>
+          <Angle>0.1</Angle>
+      <Ejectable>false</Ejectable>
+      </One>
+      <Two>
+          <X>0.0</X>
+          <Y>0.5</Y>
+          <Z>0.0</Z>
+          <Template>units/uk/mark_iv_t</Template>
+          <Angle>0.1</Angle>
+      <Ejectable>false</Ejectable>
+      </Two>
+    </TurretPoints>
+  </TurretHolder>
   <VisualActor>
     <Actor>structures/ww1/mark_iv.xml</Actor>
   </VisualActor>

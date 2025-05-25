@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="dreadnought">
+      <mesh>structural/ww1/dreadnought.dae</mesh>
+      <props>
+        <prop actor="props/units/siege_artillery/stone_projectile_med.xml" attachpoint="projectile"/>
+        <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/>
+        <prop actor="props/units/uk/anti_air_operator_b.xml" attachpoint="operator_b"/>
+        <prop actor="props/units/uk/anti_air_operator_a.xml" attachpoint="operator_a"/>
+      </props>
+      <textures>
+        <texture file="structural/dreadnought.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

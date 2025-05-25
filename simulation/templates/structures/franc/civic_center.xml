@@ -6,7 +6,6 @@
   </Identity>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_rifleman_melee_b
       units/{civ}/infantry_rifleman_ranged_b
       units/{civ}/markv
       units/{civ}/cavalry_swordsman_b

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="Civiccenter">
+      <mesh>structural/ww1/tower_defense.dae</mesh>
+      <props>
+        <prop actor="props/flag_ger.xml" attachpoint="flag1"/>
+        <prop actor="props/flag_ger.xml" attachpoint="flag2"/>
+      </props>
+      <textures>
+        <texture file="structural/ww1_ger_struct.png" name="baseTex"/>
+        <texture file="structural/ww1_struct_norm.png" name="normTex"/>
+        <texture file="structural/ww1_struct_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="alive"/>
+    <variant name="death">
+      <props>
+        <prop attachpoint="garrisoned"/>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_large_gray.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>basic_trans_norm_spec.xml</material>
+</actor>

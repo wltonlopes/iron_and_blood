@@ -12,8 +12,7 @@
   </Attack>
   <Identity>
     <Civ>ottom</Civ>
-    <Lang>napatan</Lang>
-    <SpecificName>Nabataean Camelry Archer</SpecificName>
+    <SpecificName>Camelry Archer</SpecificName>
     <SelectionGroupName>units/ptol/camelry_archer_b</SelectionGroupName>
     <VisibleClasses datatype="tokens">-Horse</VisibleClasses>
     <Classes datatype="tokens">Egyptian</Classes>

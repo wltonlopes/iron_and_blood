@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_rifleman_var_melee">
+<Entity parent="col_trops|template_unit_rifleman_var_melee">
   <Cost>
     <Resources>
       <wood>100</wood>
@@ -16,6 +16,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/british/rifle_assalt_melee_gurkhas.xml</Actor>
+    <Actor>units/uk/rifle_assalt_melee_gurkhas.xml</Actor>
   </VisualActor>
 </Entity>

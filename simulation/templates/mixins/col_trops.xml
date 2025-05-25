@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity>
+  <Identity>
+    <VisibleClasses datatype="tokens">ColonialTrops</VisibleClasses>
+  </Identity>
+  <TrainingRestrictions>
+    <Category>ColonialTrops</Category>
+  </TrainingRestrictions>
+</Entity>

@@ -39,7 +39,10 @@
       <WarDog>0</WarDog>
       <Centurion>8</Centurion>
       <Wonder>1</Wonder>
-      <Logistics>30</Logistics>      
+      <!--  -->
+      <Logistics>30</Logistics>
+      <ColonialTrops>20</ColonialTrops>
+      <Zeppelin>1</Zeppelin>       
     </Limits>
     <LimitChangers>
       <Gladiator>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_ship_warship_scout">
+  <Identity>
+    <Civ>uk</Civ>
+    <SpecificName>dreadnought</SpecificName>
+    <Icon>units/rome/ship_siege.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/uk/dreadnought.xml</Actor>
+  </VisualActor>
+</Entity>

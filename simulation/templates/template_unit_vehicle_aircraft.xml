@@ -49,7 +49,7 @@
   </Health>
   <Identity>
     <GenericName>Ship</GenericName>
-    <!-- <VisibleClasses datatype="tokens">Ship</VisibleClasses> -->
+    <VisibleClasses datatype="tokens">Aircraft</VisibleClasses>
   </Identity>
   <Obstruction disable=""/>
   <Position>
