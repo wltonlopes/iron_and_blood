@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_siege_stonethrower">
   <Cost>
-    <BuildTime>25</BuildTime>
+    <BuildTime>15</BuildTime>
     <Resources>
-      <wood>400</wood>
-      <stone>250</stone>
+      <wood>100</wood>
+      <stone>50</stone>
     </Resources>
   </Cost>
   <Health>
-    <Max>500</Max>
+    <Max>200</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>

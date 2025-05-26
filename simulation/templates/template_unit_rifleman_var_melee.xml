@@ -34,7 +34,7 @@
     </Resources>
   </Cost>
   <Health>
-    <Max>200</Max>
+    <Max>100</Max>
   </Health>
   <Identity>
     <SelectionGroupName>units/infantry_melee</SelectionGroupName>

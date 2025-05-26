@@ -52,8 +52,6 @@
   <Trainer>
     <BatchTimeModifier>0.7</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/zeppelin
-      units/{civ}/elephant_archer_b
       units/{civ}/champion_elephant
     </Entities>
   </Trainer>

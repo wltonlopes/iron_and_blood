@@ -3,12 +3,12 @@
   <Cost>
     <BuildTime>25</BuildTime>
     <Resources>
-      <wood>400</wood>
-      <stone>250</stone>
+      <wood>100</wood>
+      <stone>150</stone>
     </Resources>
   </Cost>
   <Health>
-    <Max>500</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <VisibleClasses datatype="tokens">Ranged StoneThrower</VisibleClasses>

@@ -50,7 +50,7 @@
   </Footprint>
   <GarrisonHolder disable=""/>
   <Health>
-    <Max>800</Max>
+    <Max>300</Max>
   </Health>
   <Identity>
     <GenericName>Stone Tower</GenericName>

@@ -1,8 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="col_trops|template_unit_rifleman_var">
-  <Health>
-    <Max>200</Max>
-  </Health>
   <Identity>
     <Civ>franc</Civ>
    <GenericName>Tirailleurs_Senegalais Infantry</GenericName>

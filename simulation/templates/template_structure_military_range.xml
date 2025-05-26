@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_military">
+  <BuildRestrictions>
+    <Territory>own neutral</Territory>
+    <Category>Range</Category>
+    <Distance>
+      <FromClass>Range</FromClass>
+      <MinDistance>100</MinDistance>
+    </Distance>
+  </BuildRestrictions>
   <Cost>
     <BuildTime>120</BuildTime>
     <Resources>
@@ -44,8 +52,8 @@
   <Trainer>
     <BatchTimeModifier>0.8</BatchTimeModifier>
     <Entities datatype="tokens">
-      units/{civ}/siege_105_packed
-      units/{civ}/champion_infantry_crossbowman
+      units/{civ}/plane
+      units/{civ}/zeppelin
     </Entities>
   </Trainer>
   <Vision>

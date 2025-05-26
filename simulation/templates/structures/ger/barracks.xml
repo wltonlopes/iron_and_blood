@@ -12,7 +12,6 @@
       units/{civ}/infantry_champion_rifleman
       units/{civ}/infantry_rifleman_melee_merc
       units/{civ}/infantry_rifleman_ranged_flammenwerfer
-      units/{civ}/siege_lithobolos_packed
     </Entities>
   </Trainer>
   <VisualActor>

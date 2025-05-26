@@ -7,6 +7,7 @@
       <props>
         <prop actor="props/units/weapons/bullet.xml" attachpoint="projectile"/>
         <prop actor="props/units/weapons/muzzleflash.xml" attachpoint="root"/> 
+        <prop actor="particle/smoke_catapult.xml" attachpoint="smoke"/>
       </props>
       <textures>
         <texture file="structural/mark_iv.png" name="baseTex"/>

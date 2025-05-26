@@ -5,9 +5,6 @@
       <wood>100</wood>
     </Resources>
   </Cost>
-  <Health>
-    <Max>175</Max>
-  </Health>
   <Identity>
     <Civ>ger</Civ>
     <GenericName>Infanterie-Regimenter</GenericName>

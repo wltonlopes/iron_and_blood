@@ -25,7 +25,7 @@
     </Entities>
   </Trainer>
   <VisualActor>
-    <Actor>structures/ger/arsenal.xml</Actor>
+    <Actor>structures/ww1/ger/arsenal.xml</Actor>
     <FoundationActor>structures/fndn_7x7.xml</FoundationActor>
   </VisualActor>
 </Entity>

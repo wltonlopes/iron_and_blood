@@ -8,7 +8,7 @@
       </Damage>
       <MaxRange>40</MaxRange>
       <PrepareTime>700</PrepareTime>
-      <RepeatTime>2000</RepeatTime>
+      <RepeatTime>2200</RepeatTime>
       <Projectile>
         <Speed>60</Speed>
         <Spread>2.5</Spread>
@@ -29,6 +29,9 @@
       <metal>10</metal>
     </Resources>
   </Cost>
+  <Health>
+    <Max>100</Max>
+  </Health>
   <Identity>
     <GenericName>Infantry</GenericName>
     <SelectionGroupName>units/rifleman</SelectionGroupName>

@@ -9,6 +9,6 @@
     </Technologies>
   </Researcher>
   <VisualActor>
-    <Actor>structures/telegraph.xml</Actor>
+    <Actor>structures/ww1/telegraph.xml</Actor>
   </VisualActor>
 </Entity>

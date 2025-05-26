@@ -61,17 +61,26 @@
       units/{civ}/infantry_maceman_b
       units/{civ}/infantry_axeman_b
       units/{civ}/infantry_swordsman_b
+      
       units/{civ}/cavalry_dragon_packed
+
       units/{civ}/infantry_rifleman_v
+      units/{civ}/infantry_rifleman_b
+
       units/{civ}/infantry_archer_b
-      units/{civ}/champion_infantry_spearman
-      units/{civ}/champion_infantry_pikeman
-      units/{civ}/champion_infantry_maceman
-      units/{civ}/champion_infantry_axeman
+      units/{civ}/infantry_champion_rifleman
+      units/{civ}/infantry_rifleman_melee_merc
+      units/{civ}/infantry_rifleman_ranged_flammenwerfe
       units/{civ}/champion_infantry_swordsman
       units/{civ}/champion_infantry_javelineer
       units/{civ}/infantry_champion_rifleman
       units/{civ}/champion_infantry_archer
+
+      units/{civ}/cavalry_axeman_b
+      units/{civ}/cavalry_swordsman_b
+      units/{civ}/cavalry_spearman_b
+      units/{civ}/cavalry_javelineer_b
+      units/{civ}/cavalry_archer_b
     </Entities>
   </Trainer>
   <Vision>

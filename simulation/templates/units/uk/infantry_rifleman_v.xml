@@ -5,9 +5,6 @@
       <wood>100</wood>
     </Resources>
   </Cost>
-  <Health>
-    <Max>200</Max>
-  </Health>
   <Identity>
     <Civ>uk</Civ>
     <GenericName>Assalt Melee Gurkhas</GenericName>
