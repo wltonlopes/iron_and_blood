@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_gaia_fuel">
+  <Identity>
+    <SpecificName>Oil Tower</SpecificName>
+  </Identity>
+  <ResourceSupply>
+    <Max>2000</Max>
+  </ResourceSupply>
+  <VisualActor>
+    <Actor>structures/ww1/tower_oil.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -15,7 +15,6 @@
     <Static width="24.0" depth="24.0"/>
   </Obstruction>
   <VisualActor>
-    <Actor>structures/ww1/uk/market.xml</Actor>
     <FoundationActor>structures/fndn_6x6.xml</FoundationActor>
   </VisualActor>
 </Entity>

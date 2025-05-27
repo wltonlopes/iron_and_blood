@@ -26,10 +26,10 @@
     <MaxDistance>2.0</MaxDistance>
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
-      <food.fruit>3</food.fruit>
-      <food.grain>2.5</food.grain>
+      <food.fruit disable=""/>
+      <food.grain disable=""/>
       <food.meat disable=""/>
-      <wood.tree>2.7</wood.tree>
+      <wood.tree disable=""/>
       <wood.ruins>8</wood.ruins>
       <stone.rock>2.35</stone.rock>
       <stone.ruins>7</stone.ruins>
