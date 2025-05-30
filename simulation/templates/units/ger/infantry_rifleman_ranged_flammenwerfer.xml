@@ -61,7 +61,7 @@
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/german/flammenwerfer.xml</Actor>
+    <Actor>units/ger/flammenwerfer.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

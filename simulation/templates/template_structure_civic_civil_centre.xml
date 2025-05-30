@@ -81,8 +81,8 @@
     <GenericName>Civic Center</GenericName>
     <SelectionGroupName>template_structure_civic_civil_centre</SelectionGroupName>
     <Tooltip>Build in own or neutral territory. Acquire large tracts of territory. Territory root. Train Citizens and research technologies. Garrison Soldiers for additional arrows.</Tooltip>
-    <Classes datatype="tokens">CivCentre</Classes>
-    <VisibleClasses datatype="tokens">Defensive CivilCentre</VisibleClasses>
+    <Classes datatype="tokens">CivCentre Barter</Classes>
+    <VisibleClasses datatype="tokens">Defensive CivilCentre Trade Market</VisibleClasses>
     <Icon>structures/civic_centre.png</Icon>
   </Identity>
   <Loot>
@@ -90,6 +90,10 @@
     <stone>60</stone>
     <metal>50</metal>
   </Loot>
+  <Market>
+    <TradeType>land</TradeType>
+    <InternationalBonus>0.2</InternationalBonus>
+  </Market>
   <Minimap>
     <Type>structure</Type>
     <Icon size="16.0">civil_centre.png</Icon>
@@ -103,7 +107,6 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      agricultura_rudimentar
       phase_town_{civ}
       phase_city_{civ}
       unlock_shared_los

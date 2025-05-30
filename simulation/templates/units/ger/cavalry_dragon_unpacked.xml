@@ -14,6 +14,6 @@
     <WalkSpeed>0.001</WalkSpeed>
   </UnitMotion>
   <VisualActor>
-    <Actor>units/german/cavalry_dragon_d.xml</Actor>
+    <Actor>units/ger/cavalry_dragon_d.xml</Actor>
   </VisualActor>
 </Entity>

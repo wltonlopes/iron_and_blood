@@ -16,7 +16,7 @@
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/german/stormtrooper.xml</Actor>
+    <Actor>units/ger/stormtrooper.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

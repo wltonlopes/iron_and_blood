@@ -11,6 +11,6 @@
     <Entity>units/ger/cavalry_swordsman_a</Entity>
   </Promotion>
   <VisualActor>
-    <Actor>units/german/cavalry_spearman_e_m.xml</Actor>
+    <Actor>units/ger/cavalry_spearman_e_m.xml</Actor>
   </VisualActor>
 </Entity>

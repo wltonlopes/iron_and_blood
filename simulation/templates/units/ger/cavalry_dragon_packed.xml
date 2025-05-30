@@ -15,6 +15,6 @@
     <State>packed</State>
   </Pack>
   <VisualActor>
-    <Actor>units/german/cavalry_dragon_m.xml</Actor>
+    <Actor>units/ger/cavalry_dragon_m.xml</Actor>
   </VisualActor>
 </Entity>

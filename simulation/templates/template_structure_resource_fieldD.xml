@@ -20,9 +20,6 @@
     <VisibleClasses datatype="tokens">Field</VisibleClasses>
     <Tooltip>Harvest grain for food. Each subsequent gatherer works less efficiently.</Tooltip>
     <Icon>structures/field.png</Icon>
-    <Requirements>
-          <Techs datatype="tokens">agricultura_rudimentar</Techs>
-    </Requirements>
   </Identity>
   <Loot>
     <food>50</food>

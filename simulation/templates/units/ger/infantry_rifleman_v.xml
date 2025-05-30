@@ -8,6 +8,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/german/pionier_infantry_range.xml</Actor>
+    <Actor>units/ger/pionier_infantry_range.xml</Actor>
   </VisualActor>
 </Entity>

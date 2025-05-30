@@ -43,7 +43,7 @@
       <Logistics>25</Logistics>
       <ColonialTrops>20</ColonialTrops>
       <Zeppelin>1</Zeppelin>
-      <Logistics>5</Logistics>       
+      <Logistics>50</Logistics>       
     </Limits>
     <LimitChangers>
       <Gladiator>

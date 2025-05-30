@@ -8,7 +8,7 @@
   </Identity>
     <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/german/tower_anti_a.xml</Actor>
+    <Actor>units/ger/tower_anti_a.xml</Actor>
   </VisualActor>
   <Sound>
     <SoundGroups>

@@ -17,6 +17,6 @@
   </Identity>
   <Promotion disable=""/>
   <VisualActor>
-    <Actor>units/german/askari.xml</Actor>
+    <Actor>units/ger/askari.xml</Actor>
   </VisualActor>
 </Entity>

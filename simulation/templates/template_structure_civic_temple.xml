@@ -31,9 +31,6 @@
     <Tooltip>Train Healers and research healing technologies.</Tooltip>
     <VisibleClasses datatype="tokens">Town Temple</VisibleClasses>
     <Icon>structures/temple.png</Icon>
-    <!-- <Requirements>
-      <Techs datatype="tokens">-phase_town phase_village</Techs>
-    </Requirements> -->
     <Requirements>
       <Techs datatype="tokens">phase_village</Techs>
     </Requirements>
