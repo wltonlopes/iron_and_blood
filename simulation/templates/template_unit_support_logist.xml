@@ -27,7 +27,7 @@
     <BaseSpeed>1.0</BaseSpeed>
     <Rates>
       <food.fruit disable=""/>
-      <food.grain disable=""/>
+      <food.grain>2.35</food.grain>
       <food.meat disable=""/>
       <wood.tree disable=""/>
       <wood.ruins>8</wood.ruins>

@@ -11,7 +11,7 @@
     <Height>2.0</Height>
   </Footprint>
   <Health>
-    <Max>250</Max>
+    <Max>50</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_field</SpawnEntityOnDeath>
   </Health>
   <Identity>
@@ -20,6 +20,9 @@
     <VisibleClasses datatype="tokens">Field</VisibleClasses>
     <Tooltip>Harvest grain for food. Each subsequent gatherer works less efficiently.</Tooltip>
     <Icon>structures/field.png</Icon>
+    <Requirements>
+          <Techs datatype="tokens">agricultura_rudimentar</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <food>50</food>

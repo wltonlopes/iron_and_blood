@@ -7,7 +7,7 @@
     </Resources>
   </Cost>
   <Footprint>
-    <Square width="21.0" depth="19.0"/>
+    <Square width="10.0" depth="10.0"/>
     <Height>5.0</Height>
   </Footprint>
   <GarrisonHolder>
@@ -32,21 +32,18 @@
     </Requirements>
   </Identity>
   <Loot>
-    <wood>15</wood>
+    <wood>10</wood>
   </Loot>
   <Obstruction>
-    <Static width="21.0" depth="18.0"/>
+    <Static width="10.0" depth="10.0"/>
   </Obstruction>
   <Population>
-    <Bonus>20</Bonus>
+    <Bonus>5</Bonus>
   </Population>
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
-      health_females_01
       pop_house_01
-      pop_house_02
-      unlock_females_house
     </Technologies>
   </Researcher>
   <Sound>

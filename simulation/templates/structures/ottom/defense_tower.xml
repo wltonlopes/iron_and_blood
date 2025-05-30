@@ -17,6 +17,6 @@
     </TurretPoints>
   </TurretHolder>
   <VisualActor>
-    <Actor>structures/ww1/tower_defense.xml</Actor>
+    <Actor>structures/ww1/ottom/tower_defense.xml</Actor>
   </VisualActor>
 </Entity>

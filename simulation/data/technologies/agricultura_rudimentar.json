@@ -1,0 +1,25 @@
+ {
+  "genericName": "Agricultura Rudimentar",
+  "specificName": {
+    "english": "Agricultura Básica",
+    "portuguese": "Agricultura Rudimentar"
+  },
+  "description": "Permite o cultivo de grãos básicos, desbloqueando a construção de campos agrícolas.",
+  "icon": "grain.png",
+  "researchTime": 100,
+  "cost": {
+    "wood": 100
+  },
+  "requisitos": {
+    "todos": [
+      { "class": "Vila", "número": 1 }
+    ]
+  },
+  "efeitos": [
+    {
+      "tipo": "entidade de desbloqueio",
+      "entidade": "estruturas/jomon/field_grain"
+    }
+  ],
+  "soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+} 

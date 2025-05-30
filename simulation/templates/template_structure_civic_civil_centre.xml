@@ -103,6 +103,7 @@
   <ProductionQueue/>
   <Researcher>
     <Technologies datatype="tokens">
+      agricultura_rudimentar
       phase_town_{civ}
       phase_city_{civ}
       unlock_shared_los

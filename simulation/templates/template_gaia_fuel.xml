@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <GenericName>Oil</GenericName>
-    <Tooltip>Cho.</Tooltip>
+    <Tooltip>Oil.</Tooltip>
     <Icon>gaia/flora_tree_generic.png</Icon>
   </Identity>
   <Minimap>
@@ -20,9 +20,10 @@
   </Obstruction>
   <ResourceSupply>
     <KillBeforeGather>false</KillBeforeGather>
-    <Max>1</Max>
+    <Max>Infinity</Max>
     <Type>wood.ruins</Type>
     <MaxGatherers>1</MaxGatherers>
+    <DiminishingReturns>0.90</DiminishingReturns>
   </ResourceSupply>
   <Selectable>
     <Overlay>

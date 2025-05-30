@@ -3,9 +3,9 @@
   <Identity>
     <SpecificName>Oil Tower</SpecificName>
   </Identity>
-  <ResourceSupply>
+  <!-- <ResourceSupply>
     <Max>2000</Max>
-  </ResourceSupply>
+  </ResourceSupply> -->
   <VisualActor>
     <Actor>structures/ww1/tower_oil.xml</Actor>
   </VisualActor>
